@@ -7,5 +7,9 @@ var result = marks>=60 ? "Allow for interview" : " Don't allow ";
 console.log(`Marks is ${marks} ==> ${result}`);
 
 
+var marks = 76;
+var result = marks>76 ? "Allow": "Don't allow";
+console.log(`marks is${marks} ==> ${result}`);
+
 
 

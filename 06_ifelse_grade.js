@@ -2,10 +2,10 @@ var voteEligible = function(age){
     var result=+age;
     console.log("");
     if (age<0 || age>130 || isNaN(result)) {
-        console.log(`the given age is ${age}`);
+        console.log(`the given age is ${age} "that is invalid input"` );
     }else{
         if (age<18) {
-            console.log(`the given age is ${age}`);
+            console.log(`the given age is ${age} "Your not eligible for vote"`);
             
         }
         else{
@@ -15,7 +15,7 @@ var voteEligible = function(age){
         
     
 }
-voteEligible();
+
 voteEligible(45);
 voteEligible(17);
 voteEligible(20);

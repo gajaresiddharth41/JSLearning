@@ -71,12 +71,11 @@ var strHandon = function () {
   var strHandon = str.charAt(str.length - 3);
   console.log(`the last third char is : ${strHandon}`);
 
-  var strHandon;
-  // var words = str.split(" ");
-  // console.log(words);
-  console.log(`total words is: ${words.length}`);
-  console.log( `square of :${ 7*7 }`);
-
+  var splitvalue= str.split(" ");
+    var splitLength= splitvalue.length;
+    console.log(`(**) Total Length of splited value is: ${splitLength}`);
+    var splitSquare= splitLength*splitLength
+    console.log(`(**) The Squre of Splited words is: "${splitSquare}"`);
 
 }
 strHandon();
