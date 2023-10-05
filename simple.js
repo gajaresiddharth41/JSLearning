@@ -1,9 +1,9 @@
-var str="I am The Best"
-        var result=str.split(" ")
-        var length= result.length
-        console.log(length);
-        var str =null + 67;
-        console.log(str);
+// var str="I am The Best"
+//         var result=str.split(" ")
+//         var length= result.length
+//         console.log(length);
+//         var str =null + 67;
+//         console.log(str);
 
         
         

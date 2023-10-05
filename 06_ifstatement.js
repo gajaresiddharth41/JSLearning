@@ -20,5 +20,13 @@ if (elonAge>=18) {
     console.log(`Try next time please!`);
 }
 console.log(`==================`);
+console.log(`====chai with code=======`);
+
+const isUserLogedIn = true;
+if (isUserLogedIn) {
+    
+}
+
+
 
 
